@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Monitor.css';
 const Monitor = (props) => {
     return (
-        <div className="monitor">
-            Hello
+        <div className="Monitor">
+            {props.input}
         </div>
     );
 }
